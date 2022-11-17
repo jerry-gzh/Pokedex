@@ -207,3 +207,26 @@ input {
     font-size: 1.5rem;
     font-family: 'Roboto Mono', monospace;
 }
+
+@media only screen and (max-width: 600px) {
+    .pokeball{
+        width: 5rem;
+        top: 1rem;
+        right: 2.5vw;
+    }
+    
+    .pokeball:hover{
+        background-color: rgba(251, 251, 5, 0.415);
+        border-radius: 50%;
+        padding: 10px 2.5px;
+    }
+    
+    .search-input{
+        width: 15rem;
+        height: 3rem;
+        top: 1rem;
+        right: 15vw;
+        font-size: 1.5rem;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
