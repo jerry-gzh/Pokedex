@@ -232,27 +232,27 @@ input {
     }
 
     .poke-card{
-        left: 20%;
-        width: 60%;
+        left: 15%;
+        width: 70%;
     }
 
     .poke-img{
-        width: 18vw;
+        width: 22vw;
     }
 
     .poke-stats div {
-        font-size: 2.24vw;
+        font-size: 2.64vw;
     }
 
     .container {
-        margin-top: 1rem;
+        margin-top: 1vw;
         column-count: 3;
-        column-gap: 3rem ;
-        width: 80%;
+        column-gap: 3vw ;
+        width: 90%;
     } 
 
     .card{
-        margin-bottom: 3rem;
+        margin-bottom: 3vw;
     }
     
     .logo img{
