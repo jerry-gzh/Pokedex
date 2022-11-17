@@ -211,9 +211,10 @@ input {
 
 @media only screen and (max-width: 600px) {
     .pokeball{
+        position: absolute;
         width: 5rem;
-        top: 1rem;
-        right: 2.5vw;
+        bottom: 5rem;
+        right: 0.5vw;
     }
     
     .pokeball:hover{
@@ -241,23 +242,33 @@ input {
     }
 
     .poke-stats div {
-        font-size: 2.64vw;
+        font-size: 2.55vw;
     }
 
     .container {
         margin-top: 1vw;
         column-count: 3;
-        column-gap: 3vw ;
+        column-gap: 6vw;
         width: 90%;
     } 
 
     .card{
-        margin-bottom: 3vw;
+        margin-bottom: 6vw;
     }
     
     .logo img{
         top: 1px;
         left: 28%;
         width: 40%;
+    }
+
+    .poke-types div {
+        font-size: 2.8vw;
+    }
+
+    .data-poke-id{
+        top: 1rem;
+        bottom: 1rem;
+        font-size: 5vw !important;
     }
 }
